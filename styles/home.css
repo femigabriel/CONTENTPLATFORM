@@ -151,7 +151,6 @@
 .workflow-content {
   width: 100%;
   max-width: 540px;
-  padding-left: 40px;
 }
 .workflow-title {
   color: #ffff;
@@ -231,7 +230,7 @@
   line-height: 19.36px;
   background: #ffffff;
   border-radius: 4px;
-  margin: 10px 5px;
+  margin: 10px 8px;
   height: 37px;
   text-align: center;
   cursor: pointer;
@@ -308,6 +307,7 @@
   line-height: 40px;
   font-size: 40px;
   width: 14em;
+  margin-top: 40px;
 }
 .influencer-content p {
   color: #a39c9c;
@@ -316,7 +316,7 @@
   font-size: 40px;
   width: 14em;
   position: relative;
-  bottom: 185px;
+  bottom: 215px;
   left: 80px;
 }
 
