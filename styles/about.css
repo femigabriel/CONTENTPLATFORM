@@ -1,8 +1,12 @@
 .about-page {
   padding: 40px 80px;
+  display: block;
 }
 .about-hero {
   display: flex;
+}
+.about-page-mobile {
+  display: none;
 }
 .about-hero h1 {
   color: #fff;
@@ -44,4 +48,49 @@
 .about-menu {
   position: relative;
   bottom: 280px;
+}
+
+@media screen and (max-width: 860px) {
+  .about-page {
+    padding: 20px;
+  }
+  .about-page {
+    display: none;
+  }
+  .about-page-mobile {
+    display: block;
+    padding: 40px 20px;
+  }
+  .about-hero-mobile {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-hero-mobile h1 {
+    color: #fff;
+    font-family: "Clash Display", sans-serif;
+    font-size: 24.197px;
+    font-weight: 500;
+    line-height: 24.197px;
+  }
+  .about-hero-mobile p {
+    color: #b6b9b9;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    width: 156px;
+  }
+  .about-page-mobile img {
+    width: 158.981px;
+    height: 183px;
+  }
+  .media-screenshot-mobile img {
+    width: 210.001px;
+    height: 197.246px;
+    position: relative;
+    bottom: 65px;
+  }
+  .about-menu {
+    display: none;
+  }
 }
