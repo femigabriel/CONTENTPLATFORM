@@ -15,6 +15,7 @@
   height: 954px;
   padding: 40px 80px;
 }
+
 .sign-in-form h1 {
   color: #fff;
   font-family: "Clash Display", sans-serif;
@@ -28,6 +29,21 @@
   font-weight: 400;
   line-height: normal;
   width: 339px;
+}
+@media screen and (max-width: 860px) {
+  .sign-in-form {
+    width: 343.985px;
+    height: 480px;
+    padding: 20px 40px;
+  }
+  .sign-in-form h1 {
+    font-size: 20.038px;
+    line-height: 33.397px;
+  }
+  .sign-in-form p {
+    font-size: 13.359px;
+    line-height: normal;
+  }
 }
 /* Form */
 form {
@@ -44,9 +60,8 @@ form {
   max-width: 638px;
   height: 82px;
   margin-bottom: 15px;
-  background-image: url(../assets/EllipseForm.png);
-  background-repeat: no-repeat;
 }
+
 .form-group input {
   background: transparent;
   border: none;
@@ -109,4 +124,56 @@ form button {
 .sign-in-menu {
   padding-bottom: 60px;
   padding-top: 40px;
+}
+@media screen and (max-width: 860px) {
+  .form-group {
+    max-width: 266.338px;
+    height: 34.231px;
+    display: flex;
+    padding: 5px;
+  }
+  .form-group img {
+    width: 20.639px;
+    height: 20.639px;
+    margin-left: 10px;
+  }
+  .form-group input {
+    font-size: 13.359px;
+    line-height: normal;
+    padding: 5px 10px;
+  }
+  .forget a {
+    font-size: 8.349px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  form button {
+    width: 266.338px;
+    height: 34.231px;
+    font-size: 13.359px;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+  }
+  .form-group span {
+    font-size: 10.359px;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+  .form-group img {
+    width: 20.873px;
+    height: 20.873px;
+  }
+  .or {
+    font-size: 13.359px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .sign-in-menu {
+    display: none;
+  }
 }
