@@ -1,0 +1,47 @@
+.about-page {
+  padding: 40px 80px;
+}
+.about-hero {
+  display: flex;
+}
+.about-hero h1 {
+  color: #fff;
+  font-family: "Clash Display", sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 80px;
+}
+.about-hero p {
+  color: #b6b9b9;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  width: 18em;
+  /* width: 546px; */
+}
+.about-hero img {
+  width: 625px;
+  height: 800px;
+}
+
+.media-screenshot {
+  display: flex;
+}
+.media-screenshot p {
+  color: #b6b9b9;
+  font-size: 32px;
+  line-height: 40px;
+  margin-top: 200px;
+  width: 476px;
+}
+.media-screenshot img {
+  position: relative;
+  bottom: 240px;
+  width: 100%;
+  max-width: 730px;
+}
+
+.about-menu {
+  position: relative;
+  bottom: 280px;
+}
