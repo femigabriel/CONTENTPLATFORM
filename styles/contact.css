@@ -2,11 +2,21 @@
   width: 425px;
   height: 856px;
 } */
+.contact-hero h1 {
+  width: 9em;
+}
 .contact-hero p {
   color: #ffffff;
   font-size: 32px;
   line-height: 38.73px;
   width: 22em;
+}
+.contact-hero-img img {
+  width: 100%;
+  max-width: 670.83px;
+  margin-top: 190px;
+  margin-bottom: 80px;
+  /* height: 100%; */
 }
 .contact-list .form-control {
   background: #0b0d28;
@@ -17,7 +27,7 @@
   height: 82px;
   font-size: 32px;
   line-height: 38.73px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 .form-control input {
   background: #0b0d28;
