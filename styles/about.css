@@ -60,6 +60,7 @@
   .about-page-mobile {
     display: block;
     padding: 40px 20px;
+    padding-bottom: 0;
   }
   .about-hero-mobile {
     display: flex;
