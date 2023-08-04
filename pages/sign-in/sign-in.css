@@ -81,6 +81,15 @@ form {
   height: 47px;
   margin-right: 10px;
 }
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #ffffff;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #ffffff;
+}
 .forget {
   display: flex;
   justify-content: space-between;
