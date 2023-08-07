@@ -7,11 +7,16 @@
 }
 .sign-in-form {
   border-radius: 50px;
+  /* background: linear-gradient(rgba(255, 255, 255, 0.3)),
+    url(../sign-up/assets/Ellipse.png); */
+  border-radius: 19.842px;
   background: rgba(255, 255, 255, 0.3);
   background-blend-mode: soft-light;
-  box-shadow: 0px 12px 12px 0px rgba(0, 0, 0, 0.25);
-  backdrop-filter: blur(8px);
-  width: 824px;
+  box-shadow: 0px 4.762135982513428px 4.762135982513428px 0px
+    rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(3.174757242202759px);
+  width: 100%;
+  max-width: 824px;
   /* height: 954px; */
   height: 100%;
   padding: 40px 80px;
